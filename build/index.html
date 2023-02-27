@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Spense</title>
+</head>
+
+<body class="font-cabin">
+    <header class="bg-gray-100 px-4 py-7 sm:px-8 lg:px-32">
+        <div class="grid grid-cols-[1fr,2fr] items-center justify-between">
+            <a href="">
+                <p class="text-black font-bold text-2xl">
+                    spense.
+                </p>
+            </a>
+            <input type="checkbox" name="checkbox" id="checkbox" class="hidden peer">
+            <label for="checkbox" class="flex flex-row justify-end cursor-pointer peer-checked:hidden sm:hidden"><img
+                    src="./img/Hamburger Menu.svg" alt="hamburger icon"></label>
+            <label for="checkbox"
+                class="cursor-pointer hidden peer-checked:flex peer-checked:flex-row peer-checked:justify-end sm:hidden"><img
+                    src="./img/x-10329.svg" alt="closing icon" class="w-[24px] h-[20px]"></label>
+            <div
+                class="w-full hidden peer-checked:block sm:block absolute sm:relative sm:top-0 sm:right-0 sm:translate-x-0 top-[85px] right-1/2 translate-x-1/2">
+                <nav
+                    class="bg-white sm:bg-transparent py-4 sm:py-0 max-w-full flex flex-col gap-4 sm:flex-row sm:justify-end lg:justify-between">
+                    <ul
+                        class="flex flex-col gap-4 items-center sm:flex-row sm:justify-end sm:gap-4 text-xl 2xl:text-2xl lg:gap-6 2xl:gap-10">
+                        <li><a class="sm:hover:underline" href="">Business</a></li>
+                        <li><a class="sm:hover:underline" href="">Pricing</a></li>
+                        <li><a class="sm:hover:underline" href="">Features</a></li>
+                    </ul>
+
+                    <div class="flex flex-col gap-4 sm:flex-row sm:gap-4 sm:justify-end lg:gap-6 2xl:gap-10">
+                        <button class="text-xl 2xl:text-2xl font-semibold sm:hover:underline">Login</button>
+                        <button
+                            class="bg-black mx-auto whitespace-nowrap rounded-md py-4 px-6  text-white text-base 2xl:text-2xl font-semibold">Get
+                            Started</button>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="lg:flex lg:flex-row-reverse lg:items-center lg:justify-between">
+            <figure class="py-7 lg:max-w-[40%]">
+                <img class="sm:hidden" src="./img/Hero Image (Mobile).png" alt="hero mobile">
+                <img class="hidden sm:block lg:hidden" src="./img/Hero Image (Tablet).png" alt="hero tablet">
+                <img class="hidden lg:block lg:max-w-[100%]" src="./img/Hero Image (Desktop).png" alt="hero desktop">
+            </figure>
+            <section class="flex flex-col gap-4 lg:pr-20 2xl:pr-44">
+                <div class="flex flex-col gap-2">
+                    <h1 class="text-3xl font-bold sm:text-5xl lg:text-4xl 2xl:text-6xl">
+                        Share your unfiltered thoughts. Get paid.
+                    </h1>
+                    <p class="text-font-color text-base 2xl:text-xl">
+                        Spense is an open platform for individuals to share their unfiltered thoughts. Discuss the
+                        topcis you love and get paid for doing just that.
+                    </p>
+                </div>
+                <div class="flex flex-col gap-2 font-semibold text-font-color">
+                    <div class="flex flex-row items-center text-base 2xl:text-xl"><img src="./img/Checkmark.svg" alt="">
+                        <p>&nbsp;&nbsp; Receive 99% of the earnings.</p>
+                    </div>
+                    <div class="flex flex-row items-center text-base 2xl:text-xl"><img src="./img/Checkmark.svg" alt="">
+                        <p>&nbsp;&nbsp; Get paid via Debit Card, ACH, or PayPal.</p>
+                    </div>
+                    <div class="flex flex-row items-center text-base 2xl:text-xl"><img src="./img/Checkmark.svg" alt="">
+                        <p>&nbsp;&nbsp; Withdraw you earnings anytime.</p>
+                    </div>
+                </div>
+                <form class="flex flex-row gap-4 items-center" action="">
+                    <input class="border-2 rounded-md text-md text-center max-w-[210px] py-[0.87rem] px-2" type="email"
+                        placeholder="john@example.com">
+                    <button
+                        class="bg-black whitespace-nowrap hover:bg rounded-md py-4 px-6 text-white text-base 2xl:text-2xl font-semibold">Get
+                        Started</button>
+                </form>
+            </section>
+        </div>
+    </header>
+    <main>
+        <div
+            class="py-10 px-4 sm:px-8 lg:px-32 grid grid-cols-3 gap-4 lg:gap-10 sm:gap-6 items-center sm:grid-cols-5 lg:grid-cols-8">
+            <img class="" src="./img/Facebook Logo.png" alt="facebook">
+            <img class="" src="./img/Dribbble Logo.png" alt="dribble">
+            <img class="" src="./img/Youtube Logo.png" alt="youtube">
+            <img class="hidden sm:block" src="./img/Pinterest Logo.png" alt="pinterest">
+            <img class="hidden sm:block" src="./img/Twitter Logo.png" alt="twitter">
+            <img class="hidden lg:block" src="./img/Reddit Logo.png" alt="reddit">
+            <img class="hidden lg:block" src="./img/Google Logo.png" alt="google">
+            <img class="hidden lg:block" src="./img/Slack Logo.png" alt="slack">
+        </div>
+        <div class="bg-gray-100 relative rounded-xl mx-4 sm:mx-8 lg:mx-32 sm:px-0 mb-8">
+            <img class="lg:z-0 hidden lg:block absolute max-h-full bottom-0 right-0"
+                src="./img/phone-mockup-desktop.png" alt="">
+            <section
+                class="lg:z-10 sm:pt-16 relative px-8 pt-9  sm:pl-20 sm:pr-56 lg:px-14 lg:py-14 lg:ml-0 lg:max-w-[55%]">
+                <h2 class="text-3xl font-bold sm:text-4xl lg:text-3xl 2xl:text-6xl">
+                    Secure your money with Escrow.
+                </h2>
+                <p class="text-font-color text-base 2xl:text-xl my-4">
+                    Spense uses Escrow to secure all payments. We believe escrow offers the highest level of security
+                    for all your payments, so you never need to worry about scams.
+                </p>
+                <a class="font-semibold underline" href="">Learn more about Escrow &#8594;</a>
+            </section>
+            <div class="mx-auto">
+                <img class="sm:hidden mx-auto" src="./img/Phone Mockup (Mobile).png" alt="mobile-phone">
+                <img class="hidden sm:block lg:hidden mx-auto" src="./img/Phone Mockup (Tablet).png" alt="">
+            </div>
+        </div>
+        <div class="px-4 sm:px-8 my-12 lg:flex lg:flex-row-reverse lg:items-center lg:mx-32 lg:px-0">
+            <section lg:max-w-[45%]>
+                <h2 class="text-3xl font-bold sm:text-4xl lg:text-3xl 2xl:text-6xl">
+                    A text editor like no other.
+                </h2>
+                <p class="text-font-color text-base 2xl:text-xl my-4">
+                    Our text editor pulls you into focus mode with it's simplistic design and usabilitiy so you can put
+                    out your best writings.
+                </p>
+                <a class="font-semibold underline" href="">Text Editor Live Demo &#8594;</a>
+            </section>
+            <div class="lg:max-w-[55%]">
+                <img class="lg:max-w-full mt-6" src="./img/Text Editor.png" alt="text editor">
+            </div>
+        </div>
+    </main>
+    <footer class="px-4 sm:px-8 lg:px-32 py-10 bg-black grid grid-cols-4 gap-y-5 text-lg lg:grid-cols-6">
+        <section class="col-start-1 col-end-5 sm:col-end-3">
+            <h3 class="text-white font-semibold">
+                spense.
+            </h3>
+            <p class="text-gray-500">
+                Spense is an open platform for individuals to share their unfiltered thoughts. Discuss the topic you
+                love and get paid for doing just that.
+            </p>
+        </section>
+            <section class="col-start-1 col-end-3 row-start-3 row-end-4 sm:col-start-3 sm:col-end-4 sm:row-start-1 sm:row-end-2 sm:justify-self-end">
+                <h3 class="text-white font-semibold mb-2">
+                    Sitemap
+                </h3>
+                <ul class="text-gray-500">
+                    <li class="hover:underline"><a href="">Homepage</a></li>
+                </ul>
+            </section>
+            <section class="col-start-3 col-end-5 row-start-3 row-end-4 justify-self-end mr-[29px] sm:col-start-4 sm:col-end-5 sm:row-start-1 sm:row-end-2 sm:mr-0">
+                <h3 class="text-white font-semibold mb-2">
+                    Resources
+                </h3>
+                <ul class="text-gray-500">
+                    <li class="hover:underline"><a href="">Support</a></li>
+                    <li class="hover:underline"><a href="">Contact</a></li>
+                    <li class="hover:underline"><a href="">FAQ</a></li>
+                </ul>
+            </section>
+            <section class="col-start-1 col-end-3 row-start-2 row-end-3 sm:col-start-1 sm:col-end-2 sm:row-start-2 sm:row-end-3 lg:col-start-5 lg:col-end-6 lg:row-start-1 lg:row-end-2 lg:justify-self-end">
+                <h3 class="text-white font-semibold mb-2">Company</h3>
+                <ul class="text-gray-500">
+                    <li class="hover:underline"><a href="">About</a></li>
+                    <li class="hover:underline"><a href="">Customers</a></li>
+                    <li class="hover:underline"><a href="">Blog</a></li>
+                </ul>
+            </section>
+            <section class="col-start-3 col-end-5 row-start-2 row-end-3 justify-self-end sm:col-start-2 sm:col-end-3 sm:row-start-2 sm:row-end-3 sm:justify-self-start lg:col-start-6 lg:col-end-7 lg:row-start-1 lg:row-end-2 lg:justify-self-end">
+                <h3 class="text-white font-semibold mb-2">Opportunities</h3>
+                <ul class="text-gray-500">
+                    <li class="hover:underline"><a href="">Jobs</a></li>
+                </ul>
+            </section>
+    </footer>
+</body>
+
+</html>
